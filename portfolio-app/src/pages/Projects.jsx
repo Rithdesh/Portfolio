@@ -4,13 +4,13 @@ import { ThemeContext } from "../App";
 
 const projects = [
   {
-    title: "E-commerce Platform",
+    title: "Giga Vault",
     description:
-      "A full-stack e-commerce application with shopping cart, payment integration, and admin dashboard.",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    image: "https://via.placeholder.com/400x300",
-    liveUrl: "#",
-    githubUrl: "#",
+      "A one stops password storage app allowing you to generate passwords and store them",
+    tech: ['React','Node.js','Express.js','Cloudflare'],
+    image:"/gigavault.png",
+    liveUrl: "https://gvm-2k24.vercel.app/",
+    githubUrl: "https://github.com/Giga-Vault",
   },
   {
     title: "Social Media App",

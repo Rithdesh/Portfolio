@@ -6,18 +6,18 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <FaLinkedin className="h-6 w-6" />,
-      href: 'https://linkedin.com/in/your-profile',
-      ariaLabel: 'LinkedIn',
+      href: "https://www.linkedin.com/in/rithdesh-s-k-119383290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      ariaLabel: "LinkedIn",
     },
     {
       icon: <FaGithub className="h-6 w-6" />,
-      href: 'https://github.com/your-profile',
-      ariaLabel: 'GitHub',
+      href: "https://github.com/Rithdesh",
+      ariaLabel: "GitHub",
     },
     {
       icon: <FaEnvelope className="h-6 w-6" />,
-      href: 'mailto:your.email@example.com',
-      ariaLabel: 'Email',
+      href: "mailto:rithdesh2004@gmail.com",
+      ariaLabel: "Email",
     },
   ];
 
