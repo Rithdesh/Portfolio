@@ -22,11 +22,6 @@ const About = () => {
       description: "Designing robust APIs and database architectures",
       icon: "⚙️",
     },
-    {
-      title: "DevOps & Deployment",
-      description: "Streamlining development workflows and deployments",
-      icon: "☁️",
-    },
   ];
 
   return (
@@ -112,8 +107,7 @@ const About = () => {
                   >
                     My development philosophy is centered around writing clean,
                     maintainable code while delivering exceptional user
-                    experiences. I'm constantly learning and staying up-to-date
-                    with the latest web technologies and best practices.
+                    experiences.
                   </p>
                 </div>
               </div>
