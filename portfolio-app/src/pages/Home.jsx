@@ -177,7 +177,7 @@ const Home = () => {
               {/* Fresh Graduate Stats */}
               <div className="grid grid-cols-3 gap-4 lg:gap-6 pt-6 lg:pt-8">
                 {[
-                  { number: "5", label: "Projects Built", icon: "💻" },
+                  { number: "3", label: "Projects Built", icon: "💻" },
                   { number: "100%", label: "Dedication", icon: "🔥" },
                   { number: "∞", label: "Learning Mode", icon: "🚀" },
                 ].map((stat, index) => (

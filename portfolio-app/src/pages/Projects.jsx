@@ -7,37 +7,28 @@ const projects = [
     title: "Giga Vault",
     description:
       "A one stops password storage app allowing you to generate passwords and store them",
-    tech: ['React','Node.js','Express.js','Cloudflare'],
-    image:"/gigavault.png",
+    tech: ["React", "Hono.js", "Express.js", "Cloudflare"],
+    image: "/gigavault.png",
     liveUrl: "https://gvm-2k24.vercel.app/",
     githubUrl: "https://github.com/Giga-Vault",
   },
   {
-    title: "Social Media App",
+    title: "Service Connect",
     description:
-      "Real-time social media platform with user authentication, posts, comments, and notifications.",
-    tech: ["React", "Firebase", "Tailwind CSS", "Socket.io"],
-    image: "https://via.placeholder.com/400x300",
-    liveUrl: "#",
-    githubUrl: "#",
+      "A realtime app tht allows users to connect with service providers and book appointments",
+    tech: ["React", "Express.js", "Tailwind CSS", "node.js"],
+    image: "/ServiceConnect.png",
+    liveUrl: "https://service-connect-rithdeshs-projects.vercel.app/",
+    githubUrl: "https://github.com/Rithdesh/Service_Connect",
   },
   {
-    title: "Portfolio Website",
+    title: "Autochad",
     description:
-      "Responsive portfolio website with dark/light mode, animations, and contact form.",
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    image: "https://via.placeholder.com/400x300",
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "A productivity tool for managing tasks, projects, and deadlines with drag-and-drop functionality.",
-    tech: ["React", "TypeScript", "Redux", "Material-UI"],
-    image: "https://via.placeholder.com/400x300",
-    liveUrl: "#",
-    githubUrl: "#",
+      "A Ridee booking app that doesn't cost any middleman charges and helps the customer to book a ride",
+    tech: ["React", "JavaScript", "MongoDB", "Node.js", "Express.js"],
+    image: "/Autochad.png",
+    liveUrl: "https://auto-chad.vercel.app/",
+    githubUrl: "https://github.com/PREDEEP464/AUTO_CHAD",
   },
 ];
 
@@ -105,7 +96,7 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-full  transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
 
